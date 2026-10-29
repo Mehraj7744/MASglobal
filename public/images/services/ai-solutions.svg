@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="violetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <pattern id="aiPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1f2937" opacity="0.8"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#aiBg)"/>
+  <rect width="800" height="600" fill="url(#aiPattern)"/>
+  
+  <circle cx="400" cy="300" r="180" fill="#6366f1" opacity="0.12"/>
+  <circle cx="480" cy="260" r="140" fill="#06b6d4" opacity="0.1"/>
+
+  <!-- Neural Mesh Grid -->
+  <g stroke="#374151" stroke-width="1.5">
+    <!-- Layer 1: Input -->
+    <line x1="220" y1="180" x2="380" y2="160"/>
+    <line x1="220" y1="180" x2="380" y2="280"/>
+    <line x1="220" y1="300" x2="380" y2="160"/>
+    <line x1="220" y1="300" x2="380" y2="280"/>
+    <line x1="220" y1="300" x2="380" y2="400"/>
+    <line x1="220" y1="420" x2="380" y2="280"/>
+    <line x1="220" y1="420" x2="380" y2="400"/>
+
+    <!-- Layer 2: Hidden to Output -->
+    <line x1="380" y1="160" x2="560" y2="220"/>
+    <line x1="380" y1="280" x2="560" y2="220"/>
+    <line x1="380" y1="280" x2="560" y2="360"/>
+    <line x1="380" y1="400" x2="560" y2="360"/>
+  </g>
+
+  <!-- Input Nodes -->
+  <circle cx="220" cy="180" r="18" fill="#111827" stroke="#06b6d4" stroke-width="2.5"/>
+  <circle cx="220" cy="180" r="6" fill="#06b6d4"/>
+
+  <circle cx="220" cy="300" r="22" fill="#111827" stroke="#3b82f6" stroke-width="3"/>
+  <circle cx="220" cy="300" r="8" fill="#3b82f6"/>
+
+  <circle cx="220" cy="420" r="18" fill="#111827" stroke="#06b6d4" stroke-width="2.5"/>
+  <circle cx="220" cy="420" r="6" fill="#06b6d4"/>
+
+  <!-- Hidden Nodes -->
+  <circle cx="380" cy="160" r="24" fill="#111827" stroke="#6366f1" stroke-width="3"/>
+  <circle cx="380" cy="160" r="9" fill="#818cf8"/>
+
+  <circle cx="380" cy="280" r="32" fill="#1e1b4b" stroke="#a855f7" stroke-width="3.5"/>
+  <circle cx="380" cy="280" r="14" fill="url(#violetGrad)"/>
+
+  <circle cx="380" cy="400" r="24" fill="#111827" stroke="#6366f1" stroke-width="3"/>
+  <circle cx="380" cy="400" r="9" fill="#818cf8"/>
+
+  <!-- Output Nodes -->
+  <circle cx="560" cy="220" r="26" fill="#111827" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="560" cy="220" r="10" fill="url(#cyanGrad)"/>
+
+  <circle cx="560" cy="360" r="26" fill="#111827" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="560" cy="360" r="10" fill="url(#cyanGrad)"/>
+
+  <!-- Floating HUD Tag -->
+  <g transform="translate(470, 480)">
+    <rect width="250" height="64" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="20" y="28" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-transform="uppercase" letter-spacing="1">Intelligent AI Solutions</text>
+    <text x="20" y="48" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Autonomous Workflow Agents</text>
+  </g>
+</svg>

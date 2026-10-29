@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="masMarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <!-- Geometric Hexagon / Modern AI Poly Shield -->
+  <rect width="100" height="100" rx="22" fill="#0f172a"/>
+  <!-- Glowing subtle inner ring -->
+  <rect x="3" y="3" width="94" height="94" rx="19" stroke="#6366f1" stroke-width="1.5" stroke-opacity="0.3"/>
+  <!-- Stylized M with Neural Vertex Nodes -->
+  <path d="M 24 72 L 24 32 L 50 56 L 76 32 L 76 72" stroke="url(#masMarkGrad)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Neural Vertex Nodes -->
+  <circle cx="24" cy="32" r="5" fill="#38bdf8"/>
+  <circle cx="50" cy="56" r="5.5" fill="#818cf8"/>
+  <circle cx="76" cy="32" r="5" fill="#38bdf8"/>
+  <circle cx="50" cy="24" r="3.5" fill="#06b6d4"/>
+  <line x1="50" y1="24" x2="50" y2="56" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="3 3"/>
+</svg>

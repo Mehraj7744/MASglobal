@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0a102b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bgGrad2)"/>
+  <rect width="800" height="450" fill="url(#grid2)"/>
+
+  <!-- Top Metadata Header -->
+  <rect x="40" y="36" width="240" height="30" rx="6" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="56" cy="51" r="4" fill="#38bdf8"/>
+  <text x="70" y="55" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" letter-spacing="1">CLOUD NATIVE INFRASTRUCTURE</text>
+
+  <!-- Central Multi-Zone Mesh -->
+  <!-- Zone 1 (US-East) -->
+  <rect x="100" y="130" width="180" height="220" rx="12" fill="#0b1329" stroke="#1e3a8a" stroke-width="1.5"/>
+  <rect x="115" y="145" width="150" height="26" rx="4" fill="#172554"/>
+  <text x="130" y="162" fill="#93c5fd" font-family="monospace" font-size="11" font-weight="600">ZONE-A // K8S PODS</text>
+
+  <rect x="115" y="185" width="150" height="42" rx="6" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="132" cy="206" r="4" fill="#10b981"/>
+  <text x="146" y="210" fill="#cbd5e1" font-family="monospace" font-size="10">api-gateway:v2.4</text>
+
+  <rect x="115" y="237" width="150" height="42" rx="6" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="132" cy="258" r="4" fill="#10b981"/>
+  <text x="146" y="262" fill="#cbd5e1" font-family="monospace" font-size="10">auth-service:v1.9</text>
+
+  <rect x="115" y="289" width="150" height="42" rx="6" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="132" cy="310" r="4" fill="#10b981"/>
+  <text x="146" y="314" fill="#cbd5e1" font-family="monospace" font-size="10">event-worker:v3.1</text>
+
+  <!-- Load Balancer Core -->
+  <rect x="340" y="180" width="120" height="120" rx="16" fill="#0f172a" stroke="url(#cloudGrad)" stroke-width="2"/>
+  <path d="M 370 240 L 400 210 L 430 240 M 400 215 L 400 270" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="355" y="288" fill="#93c5fd" font-family="monospace" font-size="9" font-weight="700">GLOBAL LB</text>
+
+  <!-- Connectors -->
+  <path d="M 280 240 L 340 240" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M 460 240 L 520 240" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Zone 2 (EU-Central) -->
+  <rect x="520" y="130" width="180" height="220" rx="12" fill="#0b1329" stroke="#1e3a8a" stroke-width="1.5"/>
+  <rect x="535" y="145" width="150" height="26" rx="4" fill="#172554"/>
+  <text x="550" y="162" fill="#93c5fd" font-family="monospace" font-size="11" font-weight="600">ZONE-B // REPLICAS</text>
+
+  <rect x="535" y="185" width="150" height="42" rx="6" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="552" cy="206" r="4" fill="#10b981"/>
+  <text x="566" y="210" fill="#cbd5e1" font-family="monospace" font-size="10">api-replica-01</text>
+
+  <rect x="535" y="237" width="150" height="42" rx="6" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="552" cy="258" r="4" fill="#10b981"/>
+  <text x="566" y="262" fill="#cbd5e1" font-family="monospace" font-size="10">postgres-primary</text>
+
+  <rect x="535" y="289" width="150" height="42" rx="6" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="552" cy="310" r="4" fill="#10b981"/>
+  <text x="566" y="314" fill="#cbd5e1" font-family="monospace" font-size="10">redis-cache-cluster</text>
+
+  <!-- Bottom Metric -->
+  <text x="40" y="415" fill="#64748b" font-family="monospace" font-size="12">KUBERNETES ORCHESTRATION · 99.99% AVAILABILITY SLA · MULTI-REGION FAILOVER</text>
+</svg>

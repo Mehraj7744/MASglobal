@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#090d24"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.4"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bgGrad)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+
+  <!-- Subtle ambient glow -->
+  <circle cx="400" cy="225" r="180" fill="#4f46e5" fill-opacity="0.08" filter="url(#glow)"/>
+
+  <!-- Neural Network & Distributed Architecture Graph -->
+  <g stroke="#334155" stroke-width="1.5" stroke-opacity="0.6">
+    <line x1="180" y1="140" x2="280" y2="180" stroke="#6366f1" stroke-opacity="0.5"/>
+    <line x1="180" y1="225" x2="280" y2="180" stroke="#6366f1" stroke-opacity="0.5"/>
+    <line x1="180" y1="310" x2="280" y2="270" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <line x1="180" y1="225" x2="280" y2="270" stroke="#38bdf8" stroke-opacity="0.5"/>
+
+    <line x1="280" y1="180" x2="400" y2="225" stroke="#818cf8" stroke-width="2"/>
+    <line x1="280" y1="270" x2="400" y2="225" stroke="#38bdf8" stroke-width="2"/>
+
+    <line x1="400" y1="225" x2="520" y2="170" stroke="#818cf8" stroke-width="2"/>
+    <line x1="400" y1="225" x2="520" y2="280" stroke="#06b6d4" stroke-width="2"/>
+
+    <line x1="520" y1="170" x2="620" y2="140" stroke="#6366f1" stroke-opacity="0.5"/>
+    <line x1="520" y1="170" x2="620" y2="225" stroke="#6366f1" stroke-opacity="0.5"/>
+    <line x1="520" y1="280" x2="620" y2="225" stroke="#06b6d4" stroke-opacity="0.5"/>
+    <line x1="520" y1="280" x2="620" y2="310" stroke="#06b6d4" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Input Nodes -->
+  <circle cx="180" cy="140" r="14" fill="#0f172a" stroke="#6366f1" stroke-width="2"/>
+  <circle cx="180" cy="225" r="14" fill="#0f172a" stroke="#6366f1" stroke-width="2"/>
+  <circle cx="180" cy="310" r="14" fill="#0f172a" stroke="#6366f1" stroke-width="2"/>
+
+  <!-- Hidden Layer 1 -->
+  <circle cx="280" cy="180" r="18" fill="#1e1b4b" stroke="#818cf8" stroke-width="2"/>
+  <circle cx="280" cy="270" r="18" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+
+  <!-- Central AI Core Node -->
+  <circle cx="400" cy="225" r="42" fill="#0f172a" stroke="url(#primaryGrad)" stroke-width="3" filter="url(#glow)"/>
+  <circle cx="400" cy="225" r="28" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5"/>
+  <!-- Microchip Symbol Inside Core -->
+  <rect x="390" y="215" width="20" height="20" rx="3" fill="#6366f1"/>
+  <path d="M 390 220 L 385 220 M 390 230 L 385 230 M 410 220 L 415 220 M 410 230 L 415 230 M 395 215 L 395 210 M 405 215 L 405 210 M 395 235 L 395 240 M 405 235 L 405 240" stroke="#38bdf8" stroke-width="1.5"/>
+
+  <!-- Hidden Layer 2 -->
+  <circle cx="520" cy="170" r="18" fill="#1e1b4b" stroke="#818cf8" stroke-width="2"/>
+  <circle cx="520" cy="280" r="18" fill="#083344" stroke="#06b6d4" stroke-width="2"/>
+
+  <!-- Output Nodes -->
+  <circle cx="620" cy="140" r="14" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="620" cy="225" r="14" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="620" cy="310" r="14" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+
+  <!-- Top Status Badge -->
+  <rect x="40" y="36" width="220" height="30" rx="6" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="56" cy="51" r="4" fill="#10b981"/>
+  <text x="70" y="55" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" letter-spacing="1">AUTONOMOUS AI INFERENCE</text>
+
+  <!-- Bottom Architecture Metrics -->
+  <text x="40" y="415" fill="#64748b" font-family="monospace" font-size="12">LATENCY: 4.8ms · CONCURRENCY: 25K/s · MODEL TENANCY: ISOLATED VPC</text>
+</svg>

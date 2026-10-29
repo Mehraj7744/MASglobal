@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#aboutGrad)"/>
+
+  <!-- Architectural Background Grid -->
+  <g stroke="#1e293b" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+
+  <!-- Ambient Ambient Rays -->
+  <circle cx="600" cy="337" r="280" fill="#4f46e5" opacity="0.12"/>
+  <circle cx="850" cy="250" r="180" fill="#0284c7" opacity="0.1"/>
+
+  <!-- Enterprise Architecture Showcase Pillars -->
+  <!-- Pillar 1: AI Automation & Research -->
+  <g transform="translate(180, 180)">
+    <rect width="240" height="320" rx="16" fill="#090d16" stroke="#334155" stroke-width="1.5"/>
+    <rect x="24" y="24" width="44" height="44" rx="10" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5"/>
+    <circle cx="46" cy="46" r="8" fill="#818cf8"/>
+    <text x="24" y="105" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-transform="uppercase" letter-spacing="1">Engineering Pillar</text>
+    <text x="24" y="135" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="700">AI & Intelligent Systems</text>
+    <text x="24" y="170" fill="#64748b" font-family="system-ui, sans-serif" font-size="13" line-height="1.5">Machine learning pipelines, LLM integration, OCR engines, and automated decision architectures.</text>
+    <line x1="24" y1="260" x2="216" y2="260" stroke="#1e293b"/>
+    <text x="24" y="285" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Enterprise AI Delivery →</text>
+  </g>
+
+  <!-- Pillar 2: Scalable Software Development -->
+  <g transform="translate(480, 150)">
+    <rect width="240" height="350" rx="16" fill="#0f172a" stroke="#4f46e5" stroke-width="2"/>
+    <rect x="24" y="24" width="44" height="44" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="46,38 54,54 38,54" fill="#38bdf8"/>
+    <text x="24" y="105" fill="#818cf8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-transform="uppercase" letter-spacing="1">Core Foundation</text>
+    <text x="24" y="135" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Custom Software</text>
+    <text x="24" y="170" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">High-throughput microservices, robust API backends, scalable databases, and enterprise web solutions.</text>
+    <line x1="24" y1="280" x2="216" y2="280" stroke="#1e293b"/>
+    <text x="24" y="308" fill="#a855f7" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Full-Stack Capability →</text>
+  </g>
+
+  <!-- Pillar 3: Cloud & Modernization -->
+  <g transform="translate(780, 180)">
+    <rect width="240" height="320" rx="16" fill="#090d16" stroke="#334155" stroke-width="1.5"/>
+    <rect x="24" y="24" width="44" height="44" rx="10" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+    <rect x="38" y="38" width="16" height="16" rx="3" fill="#34d399"/>
+    <text x="24" y="105" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-transform="uppercase" letter-spacing="1">Operational Scale</text>
+    <text x="24" y="135" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Cloud & DevOps</text>
+    <text x="24" y="170" fill="#64748b" font-family="system-ui, sans-serif" font-size="13">Continuous delivery, automated container orchestration, 99.99% SLA availability, and secure infrastructure.</text>
+    <line x1="24" y1="260" x2="216" y2="260" stroke="#1e293b"/>
+    <text x="24" y="285" fill="#34d399" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Global Cloud Scale →</text>
+  </g>
+</svg>
