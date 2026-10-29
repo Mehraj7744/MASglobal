@@ -32,9 +32,9 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-3 shrink-0 group">
           <div className="relative h-9 w-9 overflow-hidden rounded-xl border border-border/80 bg-card p-1 shadow-sm transition-transform duration-200 group-hover:scale-105">
             <Image
-              src="/images/brand/mas-symbol.svg"
+              src="/masLogo.png"
               alt="MAS Global AI Logo"
-              width={36}
+              width={36} 
               height={36}
               referrerPolicy="no-referrer"
               className="h-full w-full object-contain"

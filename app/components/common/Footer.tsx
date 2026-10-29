@@ -16,7 +16,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2.5">
               <div className="relative h-8 w-8 overflow-hidden rounded-lg border border-border/80 bg-card p-0.5">
                 <Image
-                  src="/images/brand/mas-symbol.svg"
+                  src="/masLogo.png"
                   alt="MAS Global AI"
                   width={32}
                   height={32}
