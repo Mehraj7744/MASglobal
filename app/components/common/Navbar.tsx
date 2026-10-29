@@ -29,15 +29,15 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-8 px-6 lg:px-8">
         
         {/* Zone 1: Single element wordmark brand lockup */}
-        <Link href="/" className="flex items-center gap-3 shrink-0 group">
-          <div className="relative h-9 w-9 overflow-hidden rounded-xl border border-border/80 bg-card p-1 shadow-sm transition-transform duration-200 group-hover:scale-105">
+        <Link href="/" className="flex items-center gap-1 shrink-0 group">
+          <div className="relative h-9 w-15 overflow-hidden rounded-xl border border-border/80 bg-card  shadow-sm transition-transform duration-200 group-hover:scale-105">
             <Image
               src="/masLogo.png"
               alt="MAS Global AI Logo"
-              width={36} 
-              height={36}
+              width={45} 
+              height={25}
               referrerPolicy="no-referrer"
-              className="h-full w-full object-contain"
+              className="h-full w-full bg-white object-contain"
               priority
             />
           </div>

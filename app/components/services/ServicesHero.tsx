@@ -17,7 +17,7 @@ export default function ServicesHero() {
             <span className="text-primary font-semibold">Production-Grade Engineering</span>
           </div>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-foreground leading-[1.12]">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-black tracking-tight text-foreground leading-[1.12]">
             Scalable Software &amp; AI Systems Built for Modern Enterprises
           </h1>
 

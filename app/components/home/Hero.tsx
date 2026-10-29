@@ -26,7 +26,7 @@ export default function Hero() {
               <span>Global Delivery</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-foreground leading-[1.12]">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-black tracking-tight text-foreground leading-[1.12]">
               Architecting Scalable Software &amp;{" "}
               <span className="bg-gradient-to-r from-primary via-indigo-500 to-cyan-500 bg-clip-text text-transparent">
                 Enterprise AI Systems

@@ -25,7 +25,7 @@ const AdminStats = ({ contacts, visitors }: Props) => {
           </div>
         </div>
 
-        <h2 className="mt-6 font-sans text-5xl font-black tracking-tight text-foreground sm:text-6xl">
+        <h2 className="mt-6 font-sans text-5xl font-black tracking-tight text-foreground sm:text-5xl">
           {contacts.toLocaleString()}
         </h2>
       </div>
@@ -49,7 +49,7 @@ const AdminStats = ({ contacts, visitors }: Props) => {
           </div>
         </div>
 
-        <h2 className="mt-6 font-sans text-5xl font-black tracking-tight text-foreground sm:text-6xl">
+        <h2 className="mt-6 font-sans text-5xl font-black tracking-tight text-foreground sm:text-5xl">
           {visitors.toLocaleString()}
         </h2>
       </div>

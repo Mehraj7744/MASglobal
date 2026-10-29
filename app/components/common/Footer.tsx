@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Brand & Corporate Overview */}
           <div className="flex flex-col space-y-4">
             <Link href="/" className="flex items-center gap-2.5">
-              <div className="relative h-8 w-8 overflow-hidden rounded-lg border border-border/80 bg-card p-0.5">
+              <div className="relative h-8 w-18 bg-white overflow-hidden rounded-lg border border-border/80 bg-card p-0.5">
                 <Image
                   src="/masLogo.png"
                   alt="MAS Global AI"
